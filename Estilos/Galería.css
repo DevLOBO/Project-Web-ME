@@ -1,0 +1,45 @@
+﻿@charset "UTF-8";
+
+#Galería {
+	display: block;
+	margin:5em auto;
+	position:relative;
+	width: 400px;
+	height: 400px;
+	list-style: none;
+	border: 10px solid #1a1a1a;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #000;
+	overflow: hidden;
+}
+#Galería li {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	border-radius: 10px;
+	background-color:#1a1a1a;
+	paddiing: .4em;
+}
+#Galería li img {
+	width: 100%;
+	border-radius: 10px;
+	background: #1a1a1a;
+}
+#Galería .selected {
+	z-index: 1;
+	opacity: 1;
+	-moz-transition: all 2s ease 0s;
+	-ms-transition: all 2s ease 0s;
+	-o-transition: all 2s ease 0s;
+	-webkit-transition: all 2s ease 0s;
+	transition: all 2s ease 0s;
+}
+#Galería .noselected {
+	z-index: 0;
+	opacity: 0;
+	-moz-transition: all 2s ease 0s;
+	-ms-transition: all 2s ease 0s;
+	-o-transition: all 2s ease 0s;
+	-webkit-transition: all 2s ease 0s;
+	transition: all 2s ease 0s;
+}

@@ -1,0 +1,72 @@
+﻿@charset "UTF-8";
+
+#Formulario {
+	background:hsl(255,255,255,0.8);
+}
+#Formulario fieldset{
+	background:rgb(96,197,204);
+	padding:10px;
+	border:5px solid rgb(124,39,195);
+	border-radius:12px;
+}
+#Formulario button{
+	background:#CCC;
+	margin:2%;
+	font:14pt Arial;
+	border-radius:2em;
+	border:2px solid inset;
+	padding:1px;
+}
+#Formulario button:focus, #Formulario button:hover{
+	opacity:0.5;
+	outline:none;
+	-moz-transform:scale(1.1) rotate(-5deg);
+	-moz-transition:transform 1s ease-in-out 0.2s;
+}
+#Formulario label{
+	font:18px "Script MT Bold", sans-serif;
+}
+#Formulario input{
+	background:rgba(78,52,188,0.5);
+	text-align:center;
+	height:20px;
+	width:45%;
+	margin:1%;
+	font:12pt "Times New Roman";
+	border-radius:5px;
+}
+#Formulario input[type=radio]{
+	-moz-appearance:none;
+	width:15px;
+	height:15px;
+}
+#Formulario input::-moz-placeholder{
+	text-align:center;
+	color:rgba(76,0,26,1.2);
+	font:italic;
+}
+#Formulario input:focus, #Formulario textarea:focus{
+	background-color:rgba(0,0,0,0.1);
+	outline:none;
+	border-radius:7px;
+}
+#Formulario textarea{
+	background-color:rgba(78,52,188,0.5);
+	text-align:center;
+	height:3%;
+	width:80%;
+	margin:1%;
+	font:12pt "Times New Roman";
+	border-radius:5px;
+}
+#Formulario textarea::-moz-placeholder{
+	text-align:center;
+	color:rgba(76,0,26,1.2);
+	font:italic;
+}
+#Formulario select{
+	width:20%;
+	height:25px;
+	margin:1%;
+	font:12pt "Times New Roman";
+}
